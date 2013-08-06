@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>bmessenger</title>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="./main.css">
+
+		<script src="./util.js"></script>
+		<script src="./websock.js"></script>
+		<script src="./bundle.js"></script>
+	</head>
+	<body>
+		<div class="screen">
+			<div class="offscreen touch ui-window">
+				<div class="login">
+					<form name="loginForm">
+						<input type="text" class="name" placeholder="Name" name="name">
+						<input type="password" class="password" placeholder="Password" name="password">
+						<input type="submit" class="submit" value="Log in">
+					</form>
+				</div>
+				<ul class="colors"></ul>
+				<ul class="users"></ul>
+			</div>
+			<div class="onscreen touch ui-window">
+				<ul class="feed"></ul>
+				<form name="sendMsg">
+					<input type="text" name="msg" placeholder="Write something...">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

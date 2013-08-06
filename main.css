@@ -1,0 +1,128 @@
+* {
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+input {
+	-webkit-user-select: auto;
+}
+body {
+	font-family: Roboto, sans-serif;
+	color: #0d0d05;
+	font-weight: 200;
+}
+
+form {
+	margin-bottom: 0;
+}
+
+.offscreen {
+	background-color: #0d0d05;
+	color: #fff1cd;
+	width: 70%;
+}
+.onscreen {
+	background: -webkit-gradient(linear, left bottom, left top, from(#fff3d3), to(#7c8fa2));
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.colors {
+	margin: 8px 0 20px;
+}
+
+.colors li {
+	height: 40px;
+	width: 10%;
+	display: inline-block;
+}
+
+.login {
+	margin: 0;
+	padding: 8px 20px;
+}
+
+.login .user {
+	font-size: 40px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+
+.login a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.login input {
+	width: 100%;
+	font-size: 24px;
+	padding: 10px 14px;
+	background: transparent;
+	border: none;
+	color: inherit;
+	outline: none;
+	margin-bottom: 8px;
+	font-family: inherit;
+	font-weight: 100;
+	
+}
+
+.users {
+	padding: 0 20px;	
+}
+
+.users li {
+	padding: 6px 0;
+	font-size: 22px;
+	
+}
+
+.onscreen input {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border: none;
+	padding: 18px 14px;
+	font-size: 24px;
+	outline: none;
+	font-family: inherit;
+	font-weight: 100;
+	border-radius: 0;
+}
+
+.feed {
+	height: 88%;
+	margin: 0;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.feed li {
+	padding: 8px 12px;
+
+}
+
+.feed li div {
+	display: inline-block;
+	font-size: 22px;
+}
+
+.feed li .time {
+	color: rgba(0,0,0,.4);
+
+}
+
+.feed li .name {
+	padding: 0 12px 0 8px;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.65);
+
+}
+.feed li .msg {
+
+}
+
+
